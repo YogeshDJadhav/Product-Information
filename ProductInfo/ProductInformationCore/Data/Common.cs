@@ -13,7 +13,7 @@ namespace ProductInformationCore.Data
         {
             // Initialize the connection string builder for the underlying provider.
             SqlConnectionStringBuilder sqlBuilder = new SqlConnectionStringBuilder();
-            sqlBuilder.DataSource = "SAGITEC-2351\\SQLEXPRESS2017";//serverName;
+            sqlBuilder.DataSource = "";//serverName;
             sqlBuilder.InitialCatalog = "ProductInfoDB";//dbName;
             sqlBuilder.IntegratedSecurity = true;
             sqlBuilder.UserID = "";//userName;
